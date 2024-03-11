@@ -17,6 +17,9 @@ dependencies:
   polka:
     specifier: ^0.5.2
     version: 0.5.2
+  uuid:
+    specifier: ^9.0.1
+    version: 9.0.1
 
 devDependencies:
   tsm:
