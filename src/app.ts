@@ -10,8 +10,8 @@ const main = async () => {
     provider.initHttpServer(3002)
     
     provider.http?.server.post('/send-message', handleCtx(async (bot, req, res) => {
-        await bot.sendMessage('59199999999', 'Datos filtrados subidos a Google Sheets', {})
-        res.end('esto es del server')
+        await bot.sendMessage('59169973651', 'Datos filtrados subidos a Google Sheets', {})
+        res.end('Esto es del server')
     }))
 
     await createBot({
